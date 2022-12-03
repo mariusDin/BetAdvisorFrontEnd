@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component';
 import { SoccerComponent } from './soccer/soccer.component';
 import { SoccerService } from './soccer/soccer.service';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SoccerComponent
+    SoccerComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
